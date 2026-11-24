@@ -7,8 +7,6 @@ This project adapts a classroom exercise on count regression. It compares Poisso
 From the repository folder on Linux or WSL, run these commands with Python 3.12.
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
 python -m pip install -r requirements.txt
 python model.py train
 python model.py predict --data data/prediction_example.csv
@@ -45,4 +43,4 @@ The negative binomial model assigned more probability to the held-out counts, wh
 
 ## Notebook
 
-Open [analysis.ipynb](analysis.ipynb) in VS Code with the Jupyter extension, select the virtual environment as the kernel, and run all cells. The notebook compares predicted means against the simulated counts.
+Open [analysis.ipynb](analysis.ipynb) in VS Code with the Jupyter extension, select a Python kernel with the project dependencies installed, and run all cells. The notebook compares predicted means against the simulated counts.
