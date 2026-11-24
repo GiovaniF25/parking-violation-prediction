@@ -4,7 +4,7 @@ This project adapts a classroom exercise on count regression. It compares Poisso
 
 ## Run locally
 
-From the repository folder on Linux or WSL, run these commands with Python 3.12.
+Run these commands from the repository folder with Python 3.12.
 
 ```bash
 python -m pip install -r requirements.txt
